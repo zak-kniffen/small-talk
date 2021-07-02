@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'small-talk';
+  mapOptions: google.maps.MapOptions = {
+    center: { lat: 38.9987208, lng: -77.2538699 },
+    zoom : 10
+ }
+ marker = {
+    position: { lat: 38.9987208, lng: -77.2538699 },
+ }
+
+
 }
